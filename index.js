@@ -14,14 +14,14 @@ function destructivelyRemoveLastKitten(){  //removes the last kitten from the ki
   kittens.pop()
 }
 function destructivelyRemoveFirstKitten(){ //removes the First kitten from the kittens array:
-  kittens.
+  kittens.shift()
 }
- function appendKitten(name) {  //appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
-   
+ function appendKitten(name) {  //appends a kitten to the kittens array and returns a new array, leaving the kittens array 
+   kitten.concat(name)
  }
 
-function prependKitten(name){    //prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
-  
+function prependKitten(name){    //prepends a kitten to the kittens array and returns a new array, leaving the kittens array kitte
+  kitten.slice()
 }
 
 function removeLastKitten(){ //removes the last kitten in the kittens; array unchanged

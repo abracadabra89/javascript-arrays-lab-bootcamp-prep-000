@@ -7,14 +7,14 @@ function destructivelyAppendKitten(name){  //appends kitten to the end of array
 }
 
 function destructivelyPrependKitten(name){  //prepends a kitten to the beginningof the kittens array:
-  kittens.u
+  kittens.unshift(name)
 }
 
 function destructivelyRemoveLastKitten(){  //removes the last kitten from the kittens array:
-  
+  kittens.pop()
 }
 function destructivelyRemoveFirstKitten(){ //removes the First kitten from the kittens array:
-  
+  kittens.
 }
  function appendKitten(name) {  //appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
    

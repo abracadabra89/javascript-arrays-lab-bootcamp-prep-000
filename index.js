@@ -24,11 +24,11 @@ function prependKitten(name){    //prepends a kitten to the kittens array and re
   
 }
 
-function removeLastKitten(){ //removes the last kitten in the kittens array andreturns a new array, leaving the kittens array unchanged
+function removeLastKitten(){ //removes the last kitten in the kittens; array unchanged
   
 }
 
-function removeFirstKitten(){
+function removeFirstKitten(){  //removes the first kitten from the kittens; array unchanged
   
 }
 

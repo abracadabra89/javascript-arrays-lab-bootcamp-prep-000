@@ -7,10 +7,12 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-  kittens.
+  
 }
 
-
+function destructivelyRemoveLastKitten(){
+  
+}
 
 
 

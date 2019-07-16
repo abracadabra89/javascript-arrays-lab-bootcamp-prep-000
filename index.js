@@ -26,7 +26,8 @@ function prependKitten(name){    //prepends a kitten to the kittens array and re
 }
 
 function removeLastKitten(){ //removes the last kitten in the kittens; array unchanged
-  
+  kittens.pop()
+  return kittens
 }
 
 function removeFirstKitten(){  //removes the first kitten from the kittens; array unchanged

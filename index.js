@@ -7,7 +7,7 @@ function destructivelyAppendKitten(name){  //appends kitten to the end of array
 }
 
 function destructivelyPrependKitten(name){  //prepends a kitten to the beginningof the kittens array:
-  
+  kittens.u
 }
 
 function destructivelyRemoveLastKitten(){  //removes the last kitten from the kittens array:

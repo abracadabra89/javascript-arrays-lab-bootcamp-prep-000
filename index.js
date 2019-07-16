@@ -22,8 +22,8 @@ function destructivelyRemoveFirstKitten(){ //removes the First kitten from the k
  }
 
 function prependKitten(name){    //prepends a kitten to the kittens array and returns a new array, leaving the kittens array kitte
-  let newArr = kittens.push(name)
-  return newArr
+  return kittens.push(name)
+  
 }
 
 function removeLastKitten(){ //removes the last kitten in the kittens; array unchanged

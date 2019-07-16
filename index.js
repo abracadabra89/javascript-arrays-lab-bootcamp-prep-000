@@ -11,18 +11,18 @@ function destructivelyPrependKitten(name){  //prepends a kitten to the beginning
 }
 
 function destructivelyRemoveLastKitten(){  //removes the last kitten from the kittens array:
-  kittens.pop()
+  return kittens.pop()
 }
 function destructivelyRemoveFirstKitten(){ //removes the First kitten from the kittens array:
-  kittens.shift()
+  return kittens.shift()
 }
  function appendKitten(name) {  //appends a kitten to the kittens array and returns a new array, leaving the kittens array 
-  let newArr =  kitten.concat(name)
+  let newArr =  kittens.concat(name)
   return newArr
  }
 
 function prependKitten(name){    //prepends a kitten to the kittens array and returns a new array, leaving the kittens array kitte
-  kitten.slice()
+  return kittens.slice()
 }
 
 function removeLastKitten(){ //removes the last kitten in the kittens; array unchanged

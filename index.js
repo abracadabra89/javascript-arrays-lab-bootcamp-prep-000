@@ -17,7 +17,8 @@ function destructivelyRemoveFirstKitten(){ //removes the First kitten from the k
   kittens.shift()
 }
  function appendKitten(name) {  //appends a kitten to the kittens array and returns a new array, leaving the kittens array 
-   kitten.concat(name)
+  let newArr =  kitten.concat(name)
+  return newArr
  }
 
 function prependKitten(name){    //prepends a kitten to the kittens array and returns a new array, leaving the kittens array kitte

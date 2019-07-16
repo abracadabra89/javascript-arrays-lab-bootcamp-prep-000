@@ -24,7 +24,9 @@ function prependKitten(name){
   
 }
 
-
+function removeLastKitten(){
+  
+}
 
 describe('Arrays', function() {
   describe('kittens', function() {

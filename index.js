@@ -28,7 +28,8 @@ function prependKitten(name){    //prepends a kitten to the kittens array and re
 }
 
 function removeLastKitten(){ //removes the last kitten in the kittens; array unchanged
-   return kittens.pop()
+   var newArray = kittens.slice(0, 2);
+   return newArray
    
   
 }

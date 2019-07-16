@@ -28,6 +28,12 @@ function removeLastKitten(){
   
 }
 
+function removeFirstKitten(){
+  
+}
+
+
+
 describe('Arrays', function() {
   describe('kittens', function() {
     it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {

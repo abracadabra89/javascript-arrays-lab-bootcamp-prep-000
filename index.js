@@ -10,10 +10,10 @@ function destructivelyPrependKitten(name){  //prepends a kitten to the beginning
   
 }
 
-function destructivelyRemoveLastKitten(){
+function destructivelyRemoveLastKitten(){  //removes the last kitten from the kittens array:
   
 }
-function destructivelyRemoveFirstKitten(){
+function destructivelyRemoveFirstKitten(){ //
   
 }
  function appendKitten(name) {

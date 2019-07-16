@@ -33,7 +33,8 @@ function removeLastKitten(){ //removes the last kitten in the kittens; array unc
 }
 
 function removeFirstKitten(){  //removes the first kitten from the kittens; array unchanged
-  return kittens.slice(1)
+  var newArray = kittens.slice(1, 3);
+   return newArray;
 }
 
 

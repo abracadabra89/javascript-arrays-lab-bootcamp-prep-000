@@ -22,7 +22,8 @@ function destructivelyRemoveFirstKitten(){ //removes the First kitten from the k
  }
 
 function prependKitten(name){    //prepends a kitten to the kittens array and returns a new array, leaving the kittens array kitte
-  return kittens.slice()
+  var newArray = [name,...kittens];
+  return newArray;
   
 }
 

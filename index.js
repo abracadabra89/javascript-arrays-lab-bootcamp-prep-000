@@ -13,7 +13,7 @@ function destructivelyPrependKitten(name){  //prepends a kitten to the beginning
 function destructivelyRemoveLastKitten(){  //removes the last kitten from the kittens array:
   
 }
-function destructivelyRemoveFirstKitten(){ //
+function destructivelyRemoveFirstKitten(){ //removes the First kitten from the kittens array:
   
 }
  function appendKitten(name) {
